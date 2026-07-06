@@ -1,0 +1,64 @@
+﻿# Build outputs
+build/
+node_modules/
+.wrangler/
+_compile_logs/
+managed_components/.component_hash
+.component_hash
+
+# Logs / generated scans
+logs/
+*.log
+*_scan.txt
+*_probe.txt
+*_search.txt
+*_map.txt
+*_coverage*.txt
+*_glyphs*.txt
+*_reference*.txt
+menu_*.txt
+star_*.txt
+result_*.txt
+overlay_*.txt
+cloud_*.txt
+boot_*.txt
+touch_*.txt
+board_*.txt
+heatmap_*.txt
+adaptive_*.txt
+
+# Temporary scripts / backups
+backups/
+main_unused_archive/
+*.bak
+*.pyc
+__pycache__/
+*backup*
+*before*
+fix_*.py
+patch_*.py
+probe_*.py
+scan_*.py
+restore_*.py
+rewrite_*.py
+show_adaptive*.py
+force_*.py
+export_*.py
+check_p4_cn_font_coverage*.py
+*_source_map.py
+*_detail_map.py
+
+# Large generated artifacts
+firmware/
+mp4/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+secrets.*

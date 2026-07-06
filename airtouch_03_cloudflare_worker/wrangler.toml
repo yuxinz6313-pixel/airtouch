@@ -1,0 +1,11 @@
+﻿name = "airtouch-cloud-worker"
+main = "src/index.js"
+compatibility_date = "2026-07-03"
+
+[[d1_databases]]
+binding = "airtouch_db"
+database_name = "airtouch_db"
+database_id = "70187442-2e53-475b-9f41-1f2363115f6c"
+
+[vars]
+AIRTOUCH_TOKEN = "airtouch_demo_token_2026"
